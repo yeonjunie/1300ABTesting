@@ -1,0 +1,59 @@
+2020-10-14T13:32:55.203737+00:00 app[api]: Initial release by user yeon_jun_kim@brown.edu
+2020-10-14T13:32:55.203737+00:00 app[api]: Release v1 created by user yeon_jun_kim@brown.edu
+2020-10-14T13:32:55.547179+00:00 app[api]: Enable Logplex by user yeon_jun_kim@brown.edu
+2020-10-14T13:32:55.547179+00:00 app[api]: Release v2 created by user yeon_jun_kim@brown.edu
+2020-10-14T13:35:45.000000+00:00 app[api]: Build started by user yeon_jun_kim@brown.edu
+2020-10-14T13:36:41.574827+00:00 app[api]: Deploy 6680b3d9 by user yeon_jun_kim@brown.edu
+2020-10-14T13:36:41.574827+00:00 app[api]: Release v3 created by user yeon_jun_kim@brown.edu
+2020-10-14T13:36:41.586490+00:00 app[api]: Scaled to web@1:Free by user yeon_jun_kim@brown.edu
+2020-10-14T13:36:46.136183+00:00 heroku[web.1]: Starting process with command `python app.py`
+2020-10-14T13:36:49.015474+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-14T13:36:49.022843+00:00 app[web.1]: * Serving Flask app "app" (lazy loading)
+2020-10-14T13:36:49.022890+00:00 app[web.1]: * Environment: production
+2020-10-14T13:36:49.022996+00:00 app[web.1]: WARNING: This is a development server. Do not use it in a production deployment.
+2020-10-14T13:36:49.023082+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-14T13:36:49.023148+00:00 app[web.1]: * Debug mode: on
+2020-10-14T13:36:49.033623+00:00 app[web.1]: * Running on http://0.0.0.0:30799/ (Press CTRL+C to quit)
+2020-10-14T13:36:49.034525+00:00 app[web.1]: * Restarting with stat
+2020-10-14T13:36:49.436635+00:00 app[web.1]: version pageLoadTime clickTime clickHTMLElementId UniqueSession
+2020-10-14T13:36:49.448179+00:00 app[web.1]: * Debugger is active!
+2020-10-14T13:36:49.449566+00:00 app[web.1]: * Debugger PIN: 267-433-124
+2020-10-14T13:36:50.562253+00:00 heroku[web.1]: State changed from starting to up
+2020-10-14T13:36:51.000000+00:00 app[api]: Build succeeded
+2020-10-14T13:36:56.925429+00:00 app[web.1]: 10.67.186.14 - - [14/Oct/2020 13:36:56] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:36:56.926729+00:00 heroku[router]: at=info method=GET path="/" host=still-taiga-82610.herokuapp.com request_id=799fa148-64b5-4fb2-94e7-c38b95277df4 fwd="218.39.66.199" dyno=web.1 connect=1ms service=12ms status=200 bytes=8879 protocol=https
+2020-10-14T13:36:57.436081+00:00 app[web.1]: 10.67.186.14 - - [14/Oct/2020 13:36:57] "[37mGET /static/main.css HTTP/1.1[0m" 200 -
+2020-10-14T13:36:57.440446+00:00 heroku[router]: at=info method=GET path="/static/main.css" host=still-taiga-82610.herokuapp.com request_id=1ea51f0c-4f87-4f12-9d63-9cfed620b2dc fwd="218.39.66.199" dyno=web.1 connect=1ms service=7ms status=200 bytes=1168 protocol=https
+2020-10-14T13:36:57.587005+00:00 app[web.1]: 10.65.248.108 - - [14/Oct/2020 13:36:57] "[37mGET /static/coppercombo.png HTTP/1.1[0m" 200 -
+2020-10-14T13:36:57.592465+00:00 app[web.1]: 10.71.246.139 - - [14/Oct/2020 13:36:57] "[37mGET /static/geoprickly.jpg HTTP/1.1[0m" 200 -
+2020-10-14T13:36:57.605767+00:00 heroku[router]: at=info method=GET path="/static/coppercombo.png" host=still-taiga-82610.herokuapp.com request_id=759cdb51-f3ef-46da-9929-01a4de761fb9 fwd="218.39.66.199" dyno=web.1 connect=1ms service=22ms status=200 bytes=243856 protocol=https
+2020-10-14T13:36:57.624431+00:00 heroku[router]: at=info method=GET path="/static/geoprickly.jpg" host=still-taiga-82610.herokuapp.com request_id=635e6f59-864c-4f52-aa7c-665cf4118449 fwd="218.39.66.199" dyno=web.1 connect=1ms service=35ms status=200 bytes=618300 protocol=https
+2020-10-14T13:36:57.633831+00:00 app[web.1]: 10.67.186.14 - - [14/Oct/2020 13:36:57] "[37mGET /static/garden.jpg HTTP/1.1[0m" 200 -
+2020-10-14T13:36:57.643423+00:00 heroku[router]: at=info method=GET path="/static/garden.jpg" host=still-taiga-82610.herokuapp.com request_id=0212b604-697d-47f6-ad98-f6b5adb126a9 fwd="218.39.66.199" dyno=web.1 connect=1ms service=11ms status=200 bytes=132444 protocol=https
+2020-10-14T13:36:57.981770+00:00 app[web.1]: 10.31.92.118 - - [14/Oct/2020 13:36:57] "[37mGET /static/garden-combo.jpg HTTP/1.1[0m" 200 -
+2020-10-14T13:36:57.990658+00:00 heroku[router]: at=info method=GET path="/static/garden-combo.jpg" host=still-taiga-82610.herokuapp.com request_id=913256da-bd8f-4fdd-997a-db49fa509bff fwd="218.39.66.199" dyno=web.1 connect=0ms service=11ms status=200 bytes=160216 protocol=https
+2020-10-14T13:36:58.002675+00:00 app[web.1]: AB_TESTING: A 1602682617169 0 0 fevpqmyrl
+2020-10-14T13:36:58.003369+00:00 app[web.1]: 10.7.244.15 - - [14/Oct/2020 13:36:58] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:36:58.004691+00:00 heroku[router]: at=info method=POST path="/data" host=still-taiga-82610.herokuapp.com request_id=0d718261-582b-41a4-997e-fda8709b2a95 fwd="218.39.66.199" dyno=web.1 connect=0ms service=3ms status=200 bytes=155 protocol=https
+2020-10-14T13:37:00.661020+00:00 app[web.1]: 10.71.246.139 - - [14/Oct/2020 13:37:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-10-14T13:37:00.662333+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=still-taiga-82610.herokuapp.com request_id=2baa5ae0-ebd6-4a27-8a35-59af6f592582 fwd="218.39.66.199" dyno=web.1 connect=1ms service=3ms status=404 bytes=394 protocol=https
+2020-10-14T13:37:47.934211+00:00 app[web.1]: 10.71.246.139 - - [14/Oct/2020 13:37:47] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:37:47.935480+00:00 heroku[router]: at=info method=GET path="/" host=still-taiga-82610.herokuapp.com request_id=72c5e76c-4d82-4a02-bd04-042ec99a5e9f fwd="218.39.66.199" dyno=web.1 connect=1ms service=5ms status=200 bytes=8929 protocol=https
+2020-10-14T13:37:48.424612+00:00 app[web.1]: AB_TESTING: B 1602682667698 0 0 fevpqmyrl
+2020-10-14T13:37:48.425558+00:00 app[web.1]: 10.71.246.139 - - [14/Oct/2020 13:37:48] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:37:48.426779+00:00 heroku[router]: at=info method=POST path="/data" host=still-taiga-82610.herokuapp.com request_id=122b94d1-f615-40a7-ba6f-58f6c69b4d45 fwd="218.39.66.199" dyno=web.1 connect=1ms service=8ms status=200 bytes=155 protocol=https
+2020-10-14T13:37:49.175417+00:00 app[web.1]: 10.71.246.139 - - [14/Oct/2020 13:37:49] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:37:49.176670+00:00 heroku[router]: at=info method=GET path="/" host=still-taiga-82610.herokuapp.com request_id=9abb559c-6ca3-4987-b48f-d3c57093ede8 fwd="218.39.66.199" dyno=web.1 connect=1ms service=4ms status=200 bytes=8929 protocol=https
+2020-10-14T13:37:49.620282+00:00 app[web.1]: AB_TESTING: B 1602682668901 0 0 fevpqmyrl
+2020-10-14T13:37:49.621120+00:00 app[web.1]: 10.71.246.139 - - [14/Oct/2020 13:37:49] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:37:49.622296+00:00 heroku[router]: at=info method=POST path="/data" host=still-taiga-82610.herokuapp.com request_id=a025628b-87e9-41b3-9a60-8bb71a9bfcbf fwd="218.39.66.199" dyno=web.1 connect=1ms service=4ms status=200 bytes=155 protocol=https
+2020-10-14T13:37:50.452614+00:00 app[web.1]: 10.71.246.139 - - [14/Oct/2020 13:37:50] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:37:50.454199+00:00 heroku[router]: at=info method=GET path="/" host=still-taiga-82610.herokuapp.com request_id=998f1ce5-b581-4ed5-bd45-17baffdf1a80 fwd="218.39.66.199" dyno=web.1 connect=1ms service=3ms status=200 bytes=8929 protocol=https
+2020-10-14T13:37:51.299944+00:00 app[web.1]: AB_TESTING: B 1602682670417 0 0 fevpqmyrl
+2020-10-14T13:37:51.300915+00:00 app[web.1]: 10.71.246.139 - - [14/Oct/2020 13:37:51] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:37:51.311492+00:00 heroku[router]: at=info method=POST path="/data" host=still-taiga-82610.herokuapp.com request_id=b54c7b5c-f19b-49f2-be35-70243924ebf7 fwd="218.39.66.199" dyno=web.1 connect=1ms service=5ms status=200 bytes=155 protocol=https
+2020-10-14T13:37:52.098071+00:00 app[web.1]: 10.71.246.139 - - [14/Oct/2020 13:37:52] "[37mGET / HTTP/1.1[0m" 200 -
+2020-10-14T13:37:52.099348+00:00 heroku[router]: at=info method=GET path="/" host=still-taiga-82610.herokuapp.com request_id=60f34edd-14a5-48b6-90b8-034696055a10 fwd="218.39.66.199" dyno=web.1 connect=1ms service=3ms status=200 bytes=8879 protocol=https
+2020-10-14T13:37:52.864866+00:00 app[web.1]: AB_TESTING: A 1602682671963 0 0 fevpqmyrl
+2020-10-14T13:37:52.865566+00:00 app[web.1]: 10.71.246.139 - - [14/Oct/2020 13:37:52] "[37mPOST /data HTTP/1.1[0m" 200 -
+2020-10-14T13:37:52.869673+00:00 heroku[router]: at=info method=POST path="/data" host=still-taiga-82610.herokuapp.com request_id=93beedb8-6079-4c29-ac4e-5fb5938b1ecd fwd="218.39.66.199" dyno=web.1 connect=1ms service=7ms status=200 bytes=155 protocol=https
