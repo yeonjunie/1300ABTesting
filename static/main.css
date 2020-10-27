@@ -57,3 +57,9 @@ header {
 .btn .btn-primary{
   background-color: #4CAF50;
 }
+
+.cart-a {
+  position: absolute;
+  top: 45px; 
+  right: 32px;
+}
